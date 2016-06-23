@@ -1,0 +1,32 @@
+{
+  "name": "geraldchen/jingdong",
+  "type": "library",
+  "description": "An easy way to use the official Jingdong API (PHP) in your applications.",
+  "keywords": ["jingdong", "京东", "jd.com"],
+  "homepage": "https://github.com/Gerald-H2/jingdong",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gerald Chen",
+      "email": "igeneral76@gmail.com",
+      "homepage": "https://github.com/Gerald-H2",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jingdong\\": "src/Jingdong/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jingdong\\Tests\\":      "tests/Jingdong/Tests/"
+    }
+  }
+}
